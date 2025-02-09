@@ -92,28 +92,28 @@ GENERAL
 
 :root{
 
-	--primary:#e0b650;
-	--secondary:#40846e;
+	--primary:#0c4abd;
+	--secondary:#4f87ee;
 	
 	--primary-light:#fcf4ee;
 	
 	--primary-one:#1750bd;
-	--primary-two:#d0490e;	
+	--primary-two:#4f87ee;	
 
   	--primary-link: #e0b650;
-	--primary-link-hover: #40846e;
+	--primary-link-hover: #4f87ee;
 
   	--primary-btn:#e0b650;
-	--primary-btn-hover:#40846e;
+	--primary-btn-hover:#4f87ee;
 	
-  	--secondary-btn:#40846e;
+  	--secondary-btn:#4f87ee;
 	--secondary-btn-hover:#e0b650;	
   
     --site-radius:5px;
     
     --title-color:#222;
     --title-family:"Lato";
-	--title-family2:"Sora", serif;";
+	--title-family2:"Sora", serif;
 
 }
 
@@ -6441,7 +6441,7 @@ Comment Form
 
 .ao-bg-white { background-color:#e3f3ef;  }
 .ao-bg-primary { background-color:var(--primary);  }
-.ao-bg-secondary { background-color:var(--secondary);  }
+.ao-bg-secondary { background-color: #0c6faa; }
 
 .page-wraper { padding: 30px; background: #e3f3ef; }
 @media only screen and (max-width:1280px){ 
@@ -6451,7 +6451,7 @@ Comment Form
 .page-wraper { padding:10px; }
 }
 .page-content { position:relative; }
-.aon-bnrs-area { padding:150px 0px 150px; background-image:url("../images/home1/banner/banner-bg.jpg"); border-radius:30px; }
+.aon-bnrs-area { padding:150px 0px 150px; background-color: #0c6faa; border-radius:30px; }
 .ao-baner-label { background: rgba(255, 255, 255, 0.15); display: inline-flex; padding:12px 25px; line-height: 1; align-items: center; border-radius:0px 20px 20px 0px;  color:#fff; text-transform:uppercase; font-family:var(--title-family2); margin-bottom:20px; position:relative; font-weight:600; margin-left:25px;  }
 .ao-baner-label:before{ position: absolute;left: -20px;top:8px; width: 5px;height: 20px;background-color: #fff;border-radius: 2px;content: ''; transform: translateY(0);  opacity:0.2; animation:wooo 3.5s infinite; }
 .ao-baner-label:after{position: absolute; left: -10px; top:4px; width: 5px;height: 30px;background-color: #fff;border-radius: 2px; content: ''; transform: translateY(0); opacity:0.2; animation:wooo 3.5s infinite;}
@@ -6692,14 +6692,14 @@ Comment Form
 
 
 .ao-why-choo-area .container { position:relative; z-index: 1; }
-.ao-why-choo-box { padding:50px; background:#53917d;  border-radius:20px; position:relative; margin-bottom:30px; color:#fff;  transition: all 0.4s linear; }
+.ao-why-choo-box { padding:50px; background-color: #022279;  border-radius:20px; position:relative; margin-bottom:30px; color:#fff;  transition: all 0.4s linear; }
 .ao-why-choo-box:last-child { margin-bottom:0px; }
 .ao-why-choo-title { margin:0px 75px 0px 0px; color:#fff; font-size:24px; text-transform:uppercase;  margin-bottom:15px; } 
 .ao-why-choo-text { color:#fff; font-size:18px; } 
-.ao-why-choo-link { width: 70px; height: 70px; display: flex; align-items: center; justify-content: center; border-radius: 20px 0px 20px 0px; background:var(--secondary); color:var(--primary); font-size:40px; position: absolute; bottom: -2px; right: -2px; }
-.ao-why-choo-link:before { content: "\e900"; color:var(--secondary);  font-size:30px;  position: absolute;  right: -2px;  top:-30px;  transform: rotate(0deg); font-family: 'icomoon' !important;
+.ao-why-choo-link { width: 70px; height: 70px; background-color: #022279; display: flex; align-items: center; justify-content: center; border-radius: 20px 0px 20px 0px; ; color:var(--primary); font-size:40px; position: absolute; bottom: -2px; right: -2px; }
+.ao-why-choo-link:before { content: "\e900"; color:#022279;  font-size:30px;  position: absolute;  right: -2px;  top:-30px;  transform: rotate(0deg); font-family: 'icomoon' !important;
   font-style: normal;  font-weight: normal;  font-variant: normal;  text-transform: none;  line-height: 1; }
-.ao-why-choo-link:after { content: "\e900"; color:var(--secondary);  font-size:30px;  position: absolute;  left:-30px;  bottom:0px;  transform: rotate(0deg); font-family: 'icomoon' !important;
+.ao-why-choo-link:after { content: "\e900"; color:#022279;  font-size:30px;  position: absolute;  left:-30px;  bottom:0px;  transform: rotate(0deg); font-family: 'icomoon' !important;
   font-style: normal;  font-weight: normal;  font-variant: normal;  text-transform: none;  line-height: 1; }
 .ao-why-choo-link:hover { color:#fff;  }
 
@@ -6854,7 +6854,7 @@ Comment Form
 
 
 .ao-site-footer { background-color:var(--secondary); border-radius:30px; }
-.footer-top { padding: 50px 0px 50px 0px; background-color: var(--primary); border-radius: 30px 30px 0px 0px; position:relative; z-index:1;}
+.footer-top { padding: 50px 0px 50px 0px; background-color: #0c6faa ; border-radius: 30px 30px 0px 0px; position:relative; z-index:1;}
 .footer-top-left { display: flex; justify-content: flex-start; }
 .footer-top-right { display: flex; justify-content: flex-end; }
 
@@ -6868,7 +6868,7 @@ Comment Form
 .ao-foo-top-animate-pic { left: 80% !important; }
 }
 
-.footer-main { padding-bottom: 30px; position: relative; z-index:2; background-image: url("../images/home1/banner/banner-bg.jpg"); border-radius: 0px 0px 30px 30px; overflow:hidden; }
+.footer-main { padding-bottom: 30px; position: relative; z-index:2; border-radius: 0px 0px 30px 30px; overflow:hidden; }
 .footer-main-top { padding:120px 0px 65px; position:relative; z-index:1; }
 
 .aon-f-title-2 { font-size:26px; color: #fff; margin-bottom: 55px; }
